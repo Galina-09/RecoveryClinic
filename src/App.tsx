@@ -60,7 +60,8 @@ function App() {
       specialty: "Психіатр, психотерапевт",
       experience: "15 років досвіду",
       education: "КМУ, стажування в Німеччині",
-      photo: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400"
+      photo:
+        "https://cdn.prod.website-files.com/64ae8bc0e4312cd55033950d/66301b12057831958e988ad1_likarka_Lyudmyla_Vaskovska.jpeg",
     },
     {
       name: "Др. Андрій Петров",
@@ -68,7 +69,8 @@ function App() {
       specialty: "КПТ, EMDR терапія",
       experience: "10 років досвіду",
       education: "НПУ, сертифікат EMDR",
-      photo: "https://images.pexels.com/photos/6749767/pexels-photo-6749767.jpeg?auto=compress&cs=tinysrgb&w=400"
+      photo:
+        "https://snibbs.co/cdn/shop/articles/What_are_the_Challenges_of_Being_a_Doctor.jpg?v=1684314843",
     },
     {
       name: "Др. Марія Іванова",
@@ -76,8 +78,9 @@ function App() {
       specialty: "Сімейна терапія, підліткова психологія",
       experience: "12 років досвіду",
       education: "ОНУ, міжнародна сертифікація",
-      photo: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
+      photo:
+        "https://www.future-doctor.de/wp-content/uploads/2024/11/shutterstock_2173377961-1000x667.jpg",
+    },
   ];
 
   const pricing = [
