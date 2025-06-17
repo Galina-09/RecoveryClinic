@@ -16,7 +16,9 @@ import {
   Award,
   ArrowRight
 } from 'lucide-react';
-
+import KovalenkoPhoto from "./image/Kovalenko.jpeg";
+import PetrenkoPhoto from "./image/Doctor.webp";
+import IvanovaPhoto from "./image/Ivanova.jpeg";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -55,31 +57,28 @@ function App() {
 
   const doctors = [
     {
-      name: "Др. Олена Коваленко",
+      name: "Лікар Олена Коваленко",
       role: "Засновник, Головний лікар",
       specialty: "Психіатр, психотерапевт",
       experience: "15 років досвіду",
       education: "КМУ, стажування в Німеччині",
-      photo:
-        "https://cdn.prod.website-files.com/64ae8bc0e4312cd55033950d/66301b12057831958e988ad1_likarka_Lyudmyla_Vaskovska.jpeg",
+      photo: KovalenkoPhoto,
     },
     {
-      name: "Др. Андрій Петров",
+      name: "Лікар Андрій Петров",
       role: "Клінічний психолог",
       specialty: "КПТ, EMDR терапія",
       experience: "10 років досвіду",
       education: "НПУ, сертифікат EMDR",
-      photo:
-        "https://snibbs.co/cdn/shop/articles/What_are_the_Challenges_of_Being_a_Doctor.jpg?v=1684314843",
+      photo: PetrenkoPhoto
     },
     {
-      name: "Др. Марія Іванова",
+      name: "Лікар Марія Іванова",
       role: "Сімейний психотерапевт",
       specialty: "Сімейна терапія, підліткова психологія",
       experience: "12 років досвіду",
       education: "ОНУ, міжнародна сертифікація",
-      photo:
-        "https://www.future-doctor.de/wp-content/uploads/2024/11/shutterstock_2173377961-1000x667.jpg",
+      photo: IvanovaPhoto,
     },
   ];
 
