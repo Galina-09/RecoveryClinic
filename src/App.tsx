@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 import KovalenkoPhoto from "./image/Kovalenko.jpeg";
 import PetrenkoPhoto from "./image/Doctor.webp";
-import IvanovaPhoto from "./image/Ivanova.jpeg";
+import IvanovaPhoto from "./image/Ivanova.jpg";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
